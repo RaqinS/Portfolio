@@ -1,0 +1,77 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-image: url('..//images/mac.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+
+  .rectangle {
+    width:70%;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: black;
+    box-shadow: 0px 0px 10px #ccc;
+
+  }
+
+.me-picture {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.floating-text {
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+ 
+  .rectangle {
+    
+    font-size: 2rem; 
+    padding: 10px; 
+  }
+
+  .me-picture {
+  
+    width: 150px; 
+    margin: 0 auto; 
+  }
+
+  .floating-text {
+   
+    font-size: 1.2rem; 
+    padding: 5px; 
+}
+
+}
+
+
+

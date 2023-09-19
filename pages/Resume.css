@@ -1,0 +1,55 @@
+.resume-container {
+    text-align: center;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project {
+    margin: 30px;
+  }
+  
+  .project-prism {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+  }
+  
+  .project-prism img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .project-prism h3 {
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .project-prism p {
+    color: white;
+    margin: 20px 0;
+  }
+  
+  .mini-navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .mini-navbar div {
+    padding: 10px 20px;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  
+  .mini-navbar .active {
+    border-bottom: 2px solid white;
+  }
+  

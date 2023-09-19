@@ -1,0 +1,35 @@
+/* Updated CSS for .about section */
+
+.about {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent; /* Removed the white background */
+    border: 2px solid #333; /* Added a border */
+    border-radius: 10px; /* Rounded corners for the bubble effect */
+    padding: 2rem; /* Increased padding for better spacing */
+    margin: 1rem; /* Added margin for spacing around the bubble */
+  }
+  
+  .about .about-text {
+    padding: 0.5rem 0;
+    text-align: justify;
+    font-size: 1.2rem; /* Larger font size for better readability */
+    line-height: 1.8; /* Improved line-height for better spacing */
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .about-header {
+    font-size: 2rem; /* Larger font size for header */
+    font-weight: 600;
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+    
+    
+    
+    
+    
+  
