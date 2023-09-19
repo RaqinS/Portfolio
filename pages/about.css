@@ -27,7 +27,38 @@
     margin-bottom: 1rem;
   }
   
-    
+
+  /* CSS for hobby cards */
+.hobby-cards {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+    margin-top: 1rem; /* Add some space between text and hobby cards */
+  }
+  
+  .hobby-card {
+    flex: 0 0 calc(33.333% - 1rem); /* Adjust card width as needed */
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .hobby-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .hobby-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hobby-name {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
     
     
     
