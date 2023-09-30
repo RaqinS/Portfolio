@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './Skills.css';
 import awsImage from '..//images/aws.jpg';
-import azureImage from '..//images/azure.jpg';
-import googleCloudImage from '..//images/google-cloud.jpg';
 import dockerImage from '..//images/docker.jpg';
 import kubernetesImage from '..//images/kubernetes.jpg';
 import ansibleImage from '..//images/ansible.jpg';
@@ -12,29 +10,47 @@ import reactImage from '..//images/react.jpg';
 import angularImage from '..//images/angular.jpg';
 import djangoImage from '..//images/django.jpg';
 import flaskImage from '..//images/flask.jpg';
+import packer from '..//images/packer.png'
+import sql from '..//images/sql.png';
+import puppet from '..//images/puppet.png';
+import ga from '..//images/ga.png';
+import vmware from '..//images/vmware.png';
+import networking from '..//images/networking.jpg';
+import git from '..//images/git.png'
+import chef from '..//images/chef.png'
+import jenkins from '..//images/jenkins.png'
+import virtualBox from '..//images/virtualbox.jpg'
+import linux from '..//images/linux.jpg'
+import node from '..//images/node.png'
+import mdb from '..//images/mdb.png'
+import Nginx from '..//images/nginx.png'
+
 
 const Skills = () => {
   const categories = [
     {
-      name: 'Cloud Computing Skills',
-      icon: '☁️',
-      skills: [
-        { name: 'AWS', image: awsImage },
-        { name: 'Azure', image: azureImage },
-        { name: 'Google Cloud', image: googleCloudImage },
-      ],
-    },
-    {
-      name: 'DevOps Skills',
+      name: 'DevOps',
       icon: '🛠️',
       skills: [
+        { name: 'AWS', image: awsImage },
         { name: 'Docker', image: dockerImage },
         { name: 'Kubernetes', image: kubernetesImage },
         { name: 'Ansible', image: ansibleImage },
+        { name: 'packer', image: packer},
+        { name: 'puppet', image:  puppet},
+        { name: 'github actions', image: ga },
+        { name: 'jenkins', image: jenkins }, 
+        { name: 'vmware', image: vmware },
+        { name: 'git', image: git },
+        { name: 'networking', image: networking },
+        { name: 'chef', image: chef },
+        { name: 'Virtual Box', image: virtualBox },
+        { name: 'Linux', image: linux },
+        { name: 'Nginx', image: Nginx }
       ],
     },
     {
-      name: 'Software Development Skills',
+      name: 'Software Developement',
       icon: '💻',
       skills: [
         { name: 'JavaScript', image: javascriptImage },
@@ -43,6 +59,9 @@ const Skills = () => {
         { name: 'Angular', image: angularImage },
         { name: 'Django', image: djangoImage },
         { name: 'Flask', image: flaskImage },
+        { name: 'sql', image: sql},
+        { name: 'NodeJS', image: node},
+        { name: 'MongoDB', image: mdb}
       ],
     },
   ];

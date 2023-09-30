@@ -1,4 +1,4 @@
-/* TypingEffect.css */
+
 .whoami-container {
     text-align: center;
     font-family: "Courier New", monospace;
@@ -7,6 +7,6 @@
   .whoami-text {
     font-size: 24px;
     line-height: 1.5;
-    color: #2ecc71; /* You can choose your preferred text color */
+    color: #2ecc71; 
   }
   

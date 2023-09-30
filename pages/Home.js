@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.css';
 import { motion } from 'framer-motion';
-import me from '..//images/user.png';
+import me from '..//images/Raqin.png';
 
 function Home() {
   return (
